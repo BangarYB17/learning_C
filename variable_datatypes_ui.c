@@ -5,12 +5,14 @@ int main(){
 	float marks;
 	char grade;
 	char name[20];
+	
+	// taking user inputs
 	printf("Enter Your Age : ");
 	scanf("%d",&age);
 	printf("Enter Your Marks : ");
 	scanf("%f",&marks);
 	printf("Enter Your grade : ");
-	scanf("%c",&grade);
+	scanf(" %c",&grade);  // space before %c
 	printf("Enter Your name : ");
 	scanf("%s",name);
 	
