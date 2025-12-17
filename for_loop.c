@@ -28,14 +28,17 @@ int main(){
 	}
 	printf("\n");
 	
+	// print i=12345 and j =54321 
 	for(i=1,j=5;i<=5;i++,j--){
 		printf("i=%d , j=%d\n",i,j);
 	}
 	printf("\n");
+	
 	//sum 1+2+3+4+5
 	for(i=1;i<=5;i++){
 		sum +=i;
 	}
 	printf("sum =%d",sum);
+	
 	return 0;
 }
